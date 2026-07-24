@@ -144,6 +144,7 @@ string newName;
 cout<<"Enter New Name:";
 							 	
 name = newName;
+getline(cin,name):
 							 	
 }
 							 
