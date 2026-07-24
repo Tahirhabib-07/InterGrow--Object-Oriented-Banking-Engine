@@ -17,7 +17,7 @@ string id;
 
 string name;
 
-string pno;
+string pho;
 
 string email;
 
@@ -43,7 +43,7 @@ cout<<"1. Create Profile "<<endl;
 		    		
 cout<<"2. Update Profile "<<endl;
 
-cout<<"3. Dicplay Profile "<<endl;
+cout<<"3. Display Profile "<<endl;
 
 cout<<"4. Exit "<<endl;
 
@@ -69,7 +69,7 @@ getline(cin,id);
         				
 cout<<"Enter Your Phone NO. : ";
 		        		
-getline(cin,pno);
+getline(cin,pho);
         				
 cout<<"Enter your Email: ";
 		        		
@@ -144,7 +144,8 @@ string newName;
 cout<<"Enter New Name:";
 							 	
 name = newName;
-getline(cin,name):
+
+getline(cin,name);
 							 	
 }
 							 
@@ -157,6 +158,8 @@ string newEmail;
 cout<<"Enter New Email:";
 							    
 email = newEmail;
+
+getline(cin,Email);
 							 	
 }
 							 
@@ -168,7 +171,9 @@ string newPhoneNo;
 
 cout<<"Enter New Phone N0.: ";
 							 	
-pno = newPhoneNo;
+pho = newPhoneNo;
+
+getline(cin,pho);
 							 	
 }
 							 
@@ -180,8 +185,9 @@ string newadderess;
 							 	
 cout<<"Enter New Address: ";
 							 	
-addr = newadderess;
-							 	
+addr = newaddress;
+
+	getline(cin,address);			 	
 }
 							 
 else
@@ -215,7 +221,7 @@ getline(file,name);
 					 	
 getline(file,id);
 					
-getline(file,pno);
+getline(file,pho);
 					 	
 getline(file,email);
 					 	
@@ -227,7 +233,7 @@ cout<<"Name: "<<name<<endl;
 					 	
 cout<<"ID: "<<id<<endl;
 					 	
-cout<<"Phone NO. : "<<pno<<endl;
+cout<<"Phone NO. : "<<pho<<endl;
 					 	
 cout<<"Email: "<<email<<endl;
 					 	
